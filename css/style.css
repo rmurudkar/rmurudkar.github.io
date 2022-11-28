@@ -104,8 +104,8 @@ font-family: 'Work Sans';
   width: 100%;
 }
 
-.a {
-
+a {
+  color: #9807c4
 }
 
 .c {
@@ -156,8 +156,14 @@ font-family: 'Work Sans';
   color: black;
 }
 
-footer {
-  margin-top: 44px;
+footer div {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-content: center;
+  padding: 10px 20px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 @media all and (max-width:700px) {
